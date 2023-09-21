@@ -73,7 +73,7 @@ SECRET_KEY = 'SECRET_KEY'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [os.environ.get('ALLOWED_HOST'),'https://taskmaster-drf-api-68d405e0bc1f.herokuapp.com','localhost',]
+ALLOWED_HOSTS = [os.environ.get('ALLOWED_HOST'),'https://taskmaster-drf-api-68d405e0bc1f.herokuapp.com','localhost' 'taskmaster-drf-api-68d405e0bc1f.herokuapp.com',]
 
 
 # Application definition
